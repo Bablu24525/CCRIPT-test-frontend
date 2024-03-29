@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.table, tr, th, td {
+    @apply p-4 text-center border;
+}
